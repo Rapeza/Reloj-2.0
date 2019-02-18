@@ -1,0 +1,29 @@
+body{
+	font-family: 'Gochi Hand', cursive;
+	background-image: url("pizarra.jpg");
+	color: white;
+	font-size: 150px;
+	display: flex;
+	justify-content: center;
+	}
+
+#dingdong{
+	padding-top: 200px;
+	width: 100vh;
+}
+
+@media all and ( max-width: 960px) {
+	#dingdong{
+	padding-top: 150px;
+	font-size: 120px;
+	width: 80vh;
+}
+
+@media all and ( max-width: 500px) {
+
+#dingdong{
+	padding-top: 100px;
+	width: 40vh;
+}
+	
+}
